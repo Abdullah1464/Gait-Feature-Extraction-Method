@@ -4,7 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
-
+body {
+  overflow: auto;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
